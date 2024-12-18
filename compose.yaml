@@ -1,0 +1,6 @@
+﻿services:
+  dotblogs:
+    image: dotblogs
+    build:
+      context: .
+      dockerfile: DotBlogs/Dockerfile
